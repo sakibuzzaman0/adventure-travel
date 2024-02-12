@@ -1,0 +1,167 @@
+
+
+
+@media screen and (max-width:575px) {
+    .container{
+        width: 95%;
+    }
+    .main-nav ul{
+        display: none;
+    }
+    .nav-var{
+        display: block;
+    }
+    .nav-title,.active-title{
+        font-size: 1rem;
+        text-wrap: wrap;
+    }
+    .nav-logo{
+        align-items: center;
+    }
+    .select-option{
+        flex-direction: column;
+    }
+    .auto-title{
+        width: 100%;
+    }
+    .auto-title h1{
+        font-size: 22px;
+    }
+    .auto-title p{
+        font: 14px;
+    }
+    .banner-content{
+        padding: 25px 0px;
+    }
+    .select{
+        margin: 16px;
+    }
+    .select-option{
+        padding: 0px;
+        width: 90%;
+    }
+    .banner{
+        height: 700px;
+    }
+    .flexiable{
+        flex-direction: column;
+    }
+    .column{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .first-row{
+        flex-direction: column;
+        margin: auto;
+    }
+    .parents img{
+        width: 600px;
+    }
+    .card,.row2{
+        width: 100%;
+    }
+    .deal-box{
+        width: 80%;
+    padding:8px 16px;
+    }
+    .dealbox-top{
+        gap: 0px;
+    }
+    .deal-box span{
+        margin-left: 5px;
+    }
+    .diffrnt-dealbox span{
+        margin-left: 5px;
+    }
+    .top-title{
+        font-size: 16px;
+    }
+    .bottom-tile{
+        font-size: 16px;
+    }
+    .deal-box * {
+        margin: 8px 0px;
+    }
+    .formobile{
+        display: none;
+    }
+    .off{
+        padding: 14px 16px;
+    }
+    .off h3{
+        font-size: 20px;
+    }
+    .flexiable{
+        gap: 0px;
+    }
+}
+@media screen and (min-width:575px) and (max-width:992px) {
+    .container{
+        width: 95%;
+    }
+    .select-option{
+        flex-direction: column;
+        padding: 0px;
+        width: 90%;
+    }
+    .main-nav ul{
+        display: none;
+    }
+    .nav-var{
+        display: block;
+    }
+    .auto-title{
+        width: 100%;
+    }
+    .auto-title h1{
+        font-size: 22px;
+    }
+    .auto-title p{
+        font: 14px;
+    }
+    .banner-content{
+        padding: 25px 0px;
+    }
+    .select{
+        margin: 16px;
+    }
+    .banner{
+        height: 700px;
+    }
+    .flexiable{
+        flex-direction: column;
+    }
+    .column{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .first-row{
+        flex-direction: column;
+        margin: auto;
+    }
+    .parents img{
+        width: 600px;
+    }
+    .card,.row2{
+        width: 100%;
+    }
+    .deal-box{
+        width: fit-content;
+        padding: 8px 16px;
+    }
+    .deal-box * {
+        margin: 8px 0px;
+    }
+    .formobile{
+        display: none;
+    }
+    .off{
+        padding: 14px 16px;
+    }
+    .off h3{
+        font-size: 20px;
+    }
+    .flexiable{
+        gap: 0px;
+    }
+}
